@@ -1,0 +1,121 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header h1 {
+    text-align: center;
+    color: #fbfdf5;
+    background-color: #7e97ad;
+    padding: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.header p {
+    text-align: center;
+    margin: 4px;
+    margin-bottom: 20px;
+}
+
+.header p a, table a {
+    text-decoration: none;
+    color: blue;
+}
+
+.header p a:focus, .header p a:hover
+table a:focus, table a:hover {
+    color: orange;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    border-bottom: 2px solid #7e97ad;
+    padding-bottom: 10px;
+}
+
+table tr th{
+    width: 28%;
+}
+
+table tr td {
+    width: 100%;
+}
+
+table tr th h2 {
+    font-weight: normal;
+    color: #7e97ad;
+}
+
+table tr td .items {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+table tr td .subitems {
+    list-style-type: disc;
+    font-weight: normal;
+}
+
+table tr td .normal {
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+table tr ul li {
+    padding: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+    table tr th{
+        width: 1%;
+    }
+    
+    table tr td {
+        width: 100%;
+    }
+
+    #skills tr th {
+        width: 28%;
+    }
+
+    #experiences tr th {
+        width: 28%;
+    }
+
+    #education tr th {
+        width: 28%;
+    }
+
+    #courseWork tr th {
+        width: 28%;
+    }
+
+    #projects tr th {
+        width: 28%;
+    }
+
+    .header h1 {
+        padding: 8px;
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-top: 15px;
+        margin-bottom: 0;
+        font-size: x-large;
+    }
+
+    .header p {
+        font-size: small;
+    }
+
+    table tr th h2 {
+        font-size: large;
+    }
+
+    table tr td ul li {
+        font-size: small;
+    }
+}
